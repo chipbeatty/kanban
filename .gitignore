@@ -49,3 +49,9 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/

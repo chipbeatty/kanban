@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-accent: #ecad0a;
+  --color-primary: #209dd7;
+  --color-secondary: #753991;
+  --color-navy: #032147;
+  --color-muted: #888888;
+  --font-sans: var(--font-geist-sans);
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 0% 0%, rgb(32 157 215 / 0.08), transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, rgb(117 57 145 / 0.07), transparent 60%),
+    #f6f8fb;
+  color: var(--color-navy);
+}
